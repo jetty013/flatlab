@@ -30,7 +30,7 @@ a img, iframe {
 a{
     text-decoration: none;
 }
-ol, ul {
+ul {
     list-style: none outside none;
 }
 input, textarea, select, button {
@@ -1370,6 +1370,7 @@ body
  .typ_inner{
     padding: 35px 0 0 0;
     /*margin: 0 0 0 0;*/
+    margin-bottom: 50px;
  }
  .type_part{
     margin-left: -15px;
@@ -1404,7 +1405,7 @@ body
     color: #797979;
     font-weight: 500;
  }
- .col-lg-1 h3, .col-lg-2 h3, .col-lg-3 h3, .col-lg-4 h3, .col-lg-5 h3, .col-lg-6 h3, .col-lg-7 h3{
+ .col-lg-1 h3, .col-lg-2 h3, .col-lg-3 h3, .col-lg-4 h3, .col-lg-5 h3, .col-lg-6 h3, .col-lg-7 h3, .col-lg-8 h3, .col-lg-9 h3{
     font-size: 24px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -1434,7 +1435,7 @@ body
     color: #797979;
     font-weight: 500;
  }
- .col-lg-2 p, .col-lg-3 p, .col-lg-4 p, .col-lg-5 p, .col-lg-6 p{
+ .col-lg-2 p, .col-lg-3 p, .col-lg-4 p, .col-lg-5 p, .col-lg-6 p, .col-lg-8 p, .col-lg-9 p{
     line-height: 22px;
     margin: 0 0 10px;
     color: #797979;
@@ -1468,12 +1469,12 @@ body
     /*width: 1170px;*/
  }
 .col-lg-5_left{
-    width: 555px;
+    width: 570px;
     padding: 0 15px 0 15px;
     float: left;
 }
 .col-lg-5_right{
-    width: 555px;
+    width: 570px;
     /*min-width: 555px;*/
     padding: 0 15px 0 15px;
     float: left;
@@ -1514,9 +1515,88 @@ body
     font-weight: 300;
     line-height: 1.25;
 }
+
+.col-lg-7_ul, .col-lg-7_ol{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+    float: left;
+}
+.col-lg-7_ol{
+    width: 545px;
+    /*padding-right: 40px;*/
+    padding-left: 40px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    color: #797979;
+    font-size: 12px;
+}
+.col-lg-7_ul{
+    width: 555px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 22px;
+    margin: 0 0 10px;
+    color: #797979;
+    font-size: 12px;
+}
 .col-lg-7_ol li{
-    list-style: initial;
+    /*list-style: initial;*/
 }
 .col-lg-7_ul li{
     list-style:disc;
 }
+.col-lg-8{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-lg-8_third{
+    width: 370px;
+    float: left;
+    padding: 0 15px 0 15px;
+}
+.col-lg-9{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.col-lg-9_forth{
+    width: 270px;
+    float: left;
+    padding: 0 15px 0 15px;
+}
+/*buttons页面编辑*/
+.button_inner{
+    padding: 40px 0 0 80px;
+}
+.button_inner h3{
+    margin-bottom: 25px;
+    color: #47506a;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.button_inner p{
+    color: #a1a1a1;
+    line-height: 22px;
+    margin: 0 0 10px;
+    font-size: 13px;
+}
+.button_left, .button_right{
+    width: 555px;
+    padding: 0 15px 0 15px;
+}
+.button_default input{
+    color: #fff;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
