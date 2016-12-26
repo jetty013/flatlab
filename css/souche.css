@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Microsoft Yahei";
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border: 0;
+}
+.clear{
+    zoom:1;
+}
+.clear:after {
+    clear:both;
+    content:'';
+    display:block;
+    height: 0;
+    visibility:hidden;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+}
+.header-top{
+    height: 4px;
+    background-color: #ff571a;
+}
+.header-main{
+    width: 100%;
+}
+.real-header{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+}
+.logo-img{
+    float: left;
+    height: 76px;
+    /*vertical-align: middle;*/
+}
+.logo-select{
+    float: left;
+    height: 76px;
+}
+.nav{
+    float: left;
+}
+.menu-li01{
+    float: left;
+    height: 76px;
+    line-height: 76px;
+}
+.menu-li{
+    float: left;
+    height: 76px;
+    line-height: 76px;
+}
+.nav-menu{
+    float: left;
+}
+.nav-search{
+    float: left;
+}
+.login{
+    float:left;
+}
+.logo-select{
+    border:1px solid  #ededed;
+    width: 85px;
+    height:27px;
+    border-radius: 5px;
+}
+.select-p{
+    height: 27px;
+    line-height: 27px;
+    margin-left: 22px;
+    background: url("../images/city-chose.png") no-repeat  48px  12px;
+}
+.login-word{
+    float: left;
+}
+.login-img{
+    float: left;
+}
